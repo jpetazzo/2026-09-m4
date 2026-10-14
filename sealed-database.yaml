@@ -1,0 +1,15 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  annotations:
+    sealedsecrets.bitnami.com/cluster-wide: "true"
+  name: database-password
+spec:
+  encryptedData:
+    password: AgCVU0kwRW2FQ1OyI9naXWcxksR4FNvG3Man6LPySS8ATlhWlp3XMrrVc+XNICr8KzE2A0YLmxS9RbI93eAWAU82KQ4gPpVCUx8FegZ0V7v6iW9COg1EDNbdiy6jioyb0YrRMz194Q5SYazpfWtwVFAs3i2s84vX/S2Ahv/hBOocShqAIqU9B91WtFwvd5pb0IuZgDZYYrQGhLxAGttf/ETZ6FV15Lt49eXbYnVwcYniY9mj960B6dYzP6QFbnuWXwUh/vKb5v87TL6gCBMP8FWGxRr26q/4PJiSEbDXqN0JYJXokICc8ReHTogSb8SkPrGET2JF7MeZMVs1sAtLpYgfNN8o0bLTToFgxXCcOjLQjKe32ZmuCWLjAnKn92vJJfe+rquY3RNUIs9fZ9hsdgHkTFXPnudVI/ZG4Z5Mp+q3wGQIfqqZjcviCjGaUAtaTVYayn3sj/4gNV+Evsm7QXOH5RF0SkSlI3Yio601L4NAJtdf8wAcEnyMMxNkzZDfpf/K6Ubj61skdSyALFQE/t0lzx915IU5/ucDv9gJuozo6IGpn28HOwv3pX2Jb2L1wscvdAvFLtFvE3z/3CLfoLbftpiUFCCyyQEuJBVHglPpr8XlGtasWb+rUszsYKFd1keHFjasSE1IErno3+4vlBtPo+/SjNAm87b13S8lLm2miCj+mlJ0SJz4J8FHXSIm1sOU9+QiZNL65jnLmg1pBjsPpMA=
+  template:
+    metadata:
+      annotations:
+        sealedsecrets.bitnami.com/cluster-wide: "true"
+      name: database-password
